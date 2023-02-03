@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #271B31
+}
+
+#title {
+    background: linear-gradient(90deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#linkedin {
+    background: #1d1d1d;
+    transition: background 0.7s;
+}
+
+#linkedin:hover {
+    background: rgb(221, 36, 118);
+    color: #fff;
+}
+#instagram {
+    background: #1d1d1d;
+    transition: background 0.7s;
+}
+
+#instagram:hover {
+    background: rgb(221, 36, 118);
+    color: #fff;
+}
+#facebook {
+    background: #1d1d1d;
+    transition: background 0.7s;
+}
+
+#facebook:hover {
+    background: rgb(221, 36, 118);
+    color: #fff;
+}
+
+#profile {  
+  border-image-slice: 1;
+  border-color: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+.contact {
+    
+}
