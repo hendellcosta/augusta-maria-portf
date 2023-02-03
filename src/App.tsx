@@ -19,7 +19,7 @@ function App() {
       <div className="bg-black w-full flex flex-col items-center py-16 text-white gap-8 text-sm lg:text-lg rounded-lg lg:max-w-lg px-4 shadow-sm shadow-slate-700">
         <img src={profile} alt="Foto de Augusta Maria" id='profile' className='w-40 rounded-full shadow-sm shadow-slate-600' />
 
-        <div className='flex flex-row gap-3'>-
+        <div className='flex flex-row gap-3'>
         <FaLinkedinIn id='linkedin' className='social rounded-md text-5xl p-2 text-linkedin shadow-slate-600 shadow-sm' />
         <BsInstagram id='instagram' className='social bg-likeBlack rounded-md text-5xl p-2 text-instagram shadow-slate-600 shadow-sm' />
         <FaFacebookF id='facebook' className='social bg-likeBlack rounded-md text-5xl p-2 text-facebook shadow-slate-600 shadow-sm' />
