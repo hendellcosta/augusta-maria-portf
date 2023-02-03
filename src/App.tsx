@@ -19,7 +19,7 @@ function App() {
       <div className="bg-black w-full flex flex-col items-center py-16 text-white gap-8 text-sm lg:text-lg rounded-lg lg:max-w-lg px-4 shadow-sm shadow-slate-700">
         <img src={profile} alt="Foto de Augusta Maria" id='profile' className='w-40 rounded-full shadow-sm shadow-slate-600' />
 
-        <div className='flex flex-row gap-3'>
+        <div className='flex flex-row gap-3'>-
         <FaLinkedinIn id='linkedin' className='social rounded-md text-5xl p-2 text-linkedin shadow-slate-600 shadow-sm' />
         <BsInstagram id='instagram' className='social bg-likeBlack rounded-md text-5xl p-2 text-instagram shadow-slate-600 shadow-sm' />
         <FaFacebookF id='facebook' className='social bg-likeBlack rounded-md text-5xl p-2 text-facebook shadow-slate-600 shadow-sm' />
@@ -27,7 +27,7 @@ function App() {
 
         <div className='bg-likeBlack px-6 grid grid-cols-1 gap-2 divide-y divide-slate-700 rounded-xl text-xs sm:text-xl'>
           <div className='flex flex-row items-center gap-4 py-2'>
-            <BsTelephoneFill className='text-phone text-2xl sm:text-5xl bg-black p-3 rounded-md hover:text-white transition-all' />
+            <BsTelephoneFill className='text-phone text-4xl sm:text-5xl bg-black p-3 rounded-md hover:text-white transition-all' />
             <span className='flex flex-col text-start'>
               <p className='text-slate'>Telefone</p>
               <p className='font-semibold'>+351 933 250 133/+44 74 32 79 9034</p>
@@ -35,7 +35,7 @@ function App() {
           </div>
 
           <div className='flex flex-row items-center gap-4 py-2'>
-            <MdEmail className='text-email text-2xl sm:text-5xl bg-black p-3 rounded-md hover:text-white transition-all' />
+            <MdEmail className='text-email text-4xl sm:text5xl bg-black p-3 rounded-md hover:text-white transition-all' />
             <span className='flex flex-col text-start'>
               <p className='text-slate'>Email</p>
               <p className='font-semibold'>domingosaugustamaria@gmail.com</p>
@@ -43,7 +43,7 @@ function App() {
           </div>
 
           <div className='flex flex-row items-center gap-4 py-2'>
-            <FaLocationArrow className='text-location text-2xl sm:text-5xl bg-black p-3 rounded-md hover:text-white transition-all' />
+            <FaLocationArrow className='text-location text-4xl sm:text-5xl bg-black p-3 rounded-md hover:text-white transition-all' />
             <span className='flex flex-col text-start'>
               <p className='text-slate'>Localização</p>
               <p className='font-semibold'>Lisboa, Portugal</p>
