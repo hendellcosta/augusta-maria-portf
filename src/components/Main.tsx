@@ -125,11 +125,7 @@ function Main() {
               <input
                 type="hidden"
                 name="redirectTo"
-<<<<<<< HEAD
                 value={`${window.location.href}message-sent`}
-=======
-                value="https://augusta-maria-portf.vercel.app/message-sent"
->>>>>>> ab4c87e84b16fb4d2b614e38c88c29969a3694cc
               />
               <button
                 type="submit"

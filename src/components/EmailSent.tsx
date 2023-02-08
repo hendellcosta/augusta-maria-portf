@@ -1,3 +1,4 @@
+import React from 'react';
 import { MdDoneOutline } from "react-icons/md";
 
 function EmailSent() {
