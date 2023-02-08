@@ -7,7 +7,7 @@ function App() {
     <>
       <main className="flex flex-col items-center justify-center text-center lg:text-start px-6 py-10 gap-20 lg:px-20">
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route element={<Main />} />
           <Route path="/message-sent" element={<EmailSent />} />
         </Routes>
       </main>
