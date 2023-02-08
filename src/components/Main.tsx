@@ -125,7 +125,7 @@ function Main() {
               <input
                 type="hidden"
                 name="redirectTo"
-                value="http://localhost:5173/message-sent"
+                value="https://augusta-maria-portf.vercel.app/message-sent"
               />
               <button
                 type="submit"
